@@ -3,7 +3,7 @@
 ~/.config/
 ├── i3
 │   └── config
-└── i3status
+├── i3status
 │   └── config
 └── rofi
     └── config.rasi

@@ -27,7 +27,12 @@ bindsym $mod+Ctrl+Shift+r restart
 bindsym $mod+Shift+q      kill
 
 # rofi
-bindsym $mod+d exec --no-startup-id "rofi -show drun -sort"
+bindsym $mod+d exec --no-startup-id "rofi -show drun \
+-sort \
+-theme solarized \
+-font \\"jetbrains mono 12\\" \
+-icon-theme \\"Papirus\\" \
+-show-icons"
 
 # Volume control
 bindsym $alt+F10 exec --no-startup-id "amixer -qD pulse sset Master 5%+"

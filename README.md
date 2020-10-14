@@ -1,9 +1,10 @@
 # My dotfiles
 ```
-.Xresources
-~/.i3/config
-~/.config/polybar/config
-~/.config/polybar/launch.sh
-~/.conkyrc
-~/.config/rofi/config.rasi
+~/.config/
+├── i3
+│   └── config
+└── i3status
+│   └── config
+└── rofi
+    └── config.rasi
 ```
